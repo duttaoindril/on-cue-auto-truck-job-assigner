@@ -1,0 +1,7 @@
+{
+  "name": "On Cue Auto Truck Job Assigner",
+  "repository": "https://github.com/duttaoindril/on-cue-auto-truck-job-assigner",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}

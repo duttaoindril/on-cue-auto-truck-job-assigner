@@ -1,0 +1,35 @@
+{
+  "name": "on-cue-auto-truck-job-assigner",
+  "version": "0.1.0",
+  "private": false,
+  "engines": {
+    "node": "11.x"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "pg-promise": "^8.6.1"
+  },
+  "scripts": {
+    "develop": "nodemon",
+    "start": "node",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duttaoindril/on-cue-auto-truck-job-assigner"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Oindril Dutta",
+  "license": "MIT"
+}
